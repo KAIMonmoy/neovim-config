@@ -19,6 +19,7 @@ require('lazy').setup({
   require('plugins.neotree'),
   require('plugins.bufferline'),
   require('plugins.auto-session'),
+  require('plugins.lualine'),
 })
 
 -- The line beneath this is called `modeline`. See `:help modeline`
