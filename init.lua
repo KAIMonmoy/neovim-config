@@ -28,6 +28,7 @@ require('lazy').setup {
   require 'plugins.none-ls',
   require 'plugins.gitsigns',
   require 'plugins.indent-blankline',
+  require 'plugins.comment',
   require 'plugins.miscs',
 }
 
