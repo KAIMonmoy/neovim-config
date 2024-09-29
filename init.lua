@@ -24,6 +24,7 @@ require('lazy').setup({
   require('plugins.lazygit'),
   require('plugins.telescope'),
   require('plugins.lsp'),
+  require('plugins.autocomplete'),
 })
 
 -- The line beneath this is called `modeline`. See `:help modeline`
