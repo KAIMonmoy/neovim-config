@@ -18,6 +18,7 @@ require('lazy').setup({
   require('plugins.colorscheme'),
   require('plugins.neotree'),
   require('plugins.bufferline'),
+  require('plugins.auto-session'),
 })
 
 -- The line beneath this is called `modeline`. See `:help modeline`
