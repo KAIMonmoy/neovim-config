@@ -28,6 +28,7 @@ require('lazy').setup {
   require 'plugins.none-ls',
   require 'plugins.gitsigns',
   require 'plugins.indent-blankline',
+  require 'plugins.miscs',
 }
 
 -- The line beneath this is called `modeline`. See `:help modeline`
