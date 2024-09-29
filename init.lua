@@ -26,6 +26,7 @@ require('lazy').setup {
   require 'plugins.lsp',
   require 'plugins.autocomplete',
   require 'plugins.none-ls',
+  require 'plugins.gitsigns',
 }
 
 -- The line beneath this is called `modeline`. See `:help modeline`
