@@ -22,6 +22,7 @@ require('lazy').setup({
   require('plugins.lualine'),
   require('plugins.treesitter'),
   require('plugins.lazygit'),
+  require('plugins.telescope'),
 })
 
 -- The line beneath this is called `modeline`. See `:help modeline`
