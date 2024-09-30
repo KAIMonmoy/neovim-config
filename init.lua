@@ -30,6 +30,7 @@ require('lazy').setup {
   require 'plugins.indent-blankline',
   require 'plugins.comment',
   require 'plugins.venv-selector',
+  require 'plugins.alpha',
   require 'plugins.miscs',
 }
 
