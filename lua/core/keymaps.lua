@@ -8,14 +8,17 @@ vim.keymap.set({ 'n', 'v' }, '<Space>', '<Nop>', { silent = true })
 -- For conciseness
 local opts = { noremap = true, silent = true }
 
+-- exit insert mode
+vim.keymap.set('i', 'jk', '<ESC>', opts)
+
 -- save file
-vim.keymap.set('n', '<C-s>', '<cmd> w <CR>', opts)
+vim.keymap.set('n', '<leader>ww', '<cmd> w <CR>', opts)
 
 -- save file without auto-formatting
 vim.keymap.set('n', '<leader>sn', '<cmd>noautocmd w <CR>', opts)
 
 -- quit all file
-vim.keymap.set('n', '<C-q>', '<cmd> qa <CR>', opts)
+vim.keymap.set('n', '<leader>qq', '<cmd> qa <CR>', opts)
 
 -- delete single character without copying into register
 vim.keymap.set('n', 'x', '"_x', opts)
@@ -67,4 +70,3 @@ vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, { desc = 'Go to previous dia
 vim.keymap.set('n', ']d', vim.diagnostic.goto_next, { desc = 'Go to next diagnostic message' })
 vim.keymap.set('n', '<leader>d', vim.diagnostic.open_float, { desc = 'Open floating diagnostic message' })
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostics list' })
-
